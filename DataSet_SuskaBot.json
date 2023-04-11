@@ -1,0 +1,233 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "hallo",
+          "hai",
+          "halo",
+          "hei",
+          "hi",
+          "hy",
+          "pagi",
+          "morning",
+          "siang",
+          "afternoon",
+          "sore",
+          "malam",
+          "bro",
+          "sis",
+          "kawan"
+        ],
+        "responses": [
+          "Hai! SuskaBot di sini. Mau tau informasi tentang apa nih?",
+          "Halo! Saya SuskaBot, salam kenal ya! Mau tau tentang UIN Suska Riau, kan?",
+          "Helo! Ini SuskaBot. Lagi kepo tentang UIN Suska Riau ya?"
+        ]
+      },
+      {
+        "tag": "SuskaBot",
+        "patterns": [
+          "Apa itu SuskaBot?",
+          "Siapa SuskaBot?"
+        ],
+        "responses": [
+          "SuskaBot adalah aplikasi chatbot informasi tentang Kampus UIN Suska Riau yang dimulai dari pelaksanaan, persyaratan dan program yang berada di kampus UIN Suska Riau!",
+          "SuskaBot itu adalah teman informasi kamu tentang Kampus UIN Suska Riau!"
+        ]
+      },
+      {
+        "tag": "pencipta_SuskaBot",
+        "patterns": [
+          "Siapa pembuatmu?",
+          "Suska, yang buat kamu siapa sih?",
+          "Siapa penciptamu, Suska?"
+        ],
+        "responses": [
+          "SuskaBot diciptakan oleh mahasiswa dan mahasiswi dari program Kampus Merdeka dari UIN Suska RIau yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
+          "Pembuat SuskaBot dari kalangan mahasiswa dan mahasiswi lho!",
+          "Penciptaku berasal dari seorang mahasiswa yang kreatif, sehingga saya bisa aktif saat ini!"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Dah",
+          "Dadah",
+          "Bye",
+          "Byee",
+          "Good bye",
+          "Selamat tinggal",
+          "Sampai jumpa",
+          "Bai",
+          "See you"
+        ],
+        "responses": [
+          "Bye!",
+          "Dadahh!",
+          "Good bye!",
+          "Dahh, semoga harimu menyenangkan yaa!",
+          "Sampai jumpa lagi!",
+          "See u! Senang bisa membantu"
+        ]
+      },
+      {
+        "tag": "terimakasih",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Terima kasih",
+          "Makasih",
+          "Terima kasih banyak"
+        ],
+        "responses": [
+          "Dengan senang hati :)",
+          "Sama-sama yaa"
+        ]
+      },
+      {
+        "tag": "penjelasan_UIN_Suska_Riau",
+        "patterns": [
+          "Apa itu UIN Suska Riau?"
+        ],
+        "responses": [
+          "UIN Suska Riau atau disebut juga Universitas Islam Negeri Sultan Syarif Kasim Riau merupakan satu-satunya kampus islam negeri yang meraih akreditas B di Riau, dengan jumlah peminatnya setiap tahun mencapai lebih dari seribu orang, lho!"
+        ]
+      },
+        {
+        "tag": "UKM_UIN_Suska_Riau",
+        "patterns": [
+          "UKM di UIN Suska Riau?"
+        ],
+        "responses": [
+          "UKM yang ada di UIN Suska Riau ada banyak loh, seperti : Sanggar latah Tuah, Lembaga Pers Mahasiswa (LPM) Gagasan, Pramuka, Sanggar Kasimiah, Korps Sukarela Palang Merah Indonesia, Mahasiswa Pencinta Alam, Lembaga Dakwah Kampus (LDK) Al-Karamah, Forum Kajian Islam Intensif Asy-Syams, Himpunan Seni Silat, Koperasi Mahasiswa, Resimen Mahasiswa, IN Suska Menagajar dan Marcing Band. Nah, ada banyak kan. jadi Mana Yang Paling Kalian Minati nihh! "
+        ]
+      },
+      {
+        "tag": "Akreditas_UIN_Suska_Riau",
+        "patterns": [
+          "Akreditas UIN Suska Riau Apa Sih sekarang?"
+        ],
+        "responses": [
+          "UIN Suska Riau merupakan Satu-satunya Kampus Islam Negeri dengan Akreditas B di Riau, Lho!."
+        ]
+      },
+      {
+        "tag": "persyaratan_daftar_UIN_Suska_Riau",
+        "patterns": [
+          "Apa persyaratan daftar ke UIN Suska Riau?"
+        ],
+        "responses": [
+          "salah satu syarat mendaftar di UIN Suska Riau adalah, harus Warga Negara Indonesia yang memiliki Nomor Induk Kependudukan."
+        ]
+      },
+      {
+        "tag": "Jalur_Pendaftaran",
+        "patterns": [
+          "Apa saja jalur pendaftaran yang ada di UIN Suska Riau?"
+        ],
+        "responses": [
+          "Terdapat beberapa jalur pendaftaran, seperti jalur SNBP, SNBT, SPAN-PTKIN, UM-PTKIN, SMM-PTN barat, Undangan Mandiri, Ujian Tulis Mandiri, dan lain-lain"
+        ]
+      },
+      {
+        "tag": "fakultas_UIN_Suska_Riau",
+        "patterns": [
+          "Tarbiyah dan Keguruan",
+          "Ushuludin",
+          "Psikologi",
+          "Ekonomi dan Ilmu Sosial",
+          "Pascasarjana",
+          "Syariah dan Ilmu Hukum",
+          "Dakwah dan Ilmu Komunikasi",
+          "Sains dan Teknologi",
+          "Pertanian dan Pertenakan"
+        ],
+        "responses": [
+          "Yuk, pilih fakultas di bawah ini:"
+        ]
+      },
+      
+      {
+        "tag": "jurusan_fakultas_Tarbiyah_dan_Keguruan",
+        "patterns": [
+          "di fakultas Tarbiyah dan Keguruan ada jurusan apa aja?"
+        ],
+        "responses": [
+          "Jurusan di fakultas Taribiyah dan Keguruan ada 11, lho! yaitu : Pendidikan Agama Islam, Pendidikan Bahasa Arab, Pendidikan Islam, Pendidikan Bahasa Inggris, Pendidikan Matematika, Pendidikan Madrasah Ibtidaiyah, Pendidikan Kimia, Pendidikan Bahasa Indonesia, Tadris IPA, Pendidikan Geografi, dan Pendidikan IPS Ekonomi."
+        ]
+      },
+      {
+        "tag": "jurusan_fakultas_Ushuludin",
+        "patterns": [
+          "di fakultas Ushuludin ada jurusan apa aja?"
+        ],
+        "responses": [
+          "Jurusan di fakultas Ushuludin ada 4, lho! yaitu : Aqidah dan Filsafat, Tafsir Hadits, Ilmu Hadis, dan Perbandingan Agama"
+        ]
+      },
+      {
+        "tag": "jurusan_fakultas_psikologi",
+        "patterns": [
+          "di fakultas Psikologi ada jurusan apa aja?"
+        ],
+        "responses": [
+          "Jurusan di fakultas Psikologi ada 2, lho! yaitu : S1 Psikologi dan S2 psikologi"
+        ]
+      },
+      {
+        "tag": "jurusan_fakultas_Ekonomi_dan_Ilmu_Sosial",
+        "patterns": [
+          "di fakultas Ekonomi dan Ilmu Sosial ada jurusan apa aja?"
+        ],
+        "responses": [
+          "Jurusan di fakultas Ekonomi dan Ilmu Sosial ada 6, lho! yaitu : Manajemen, Administrasi Negara, Akutansi, D3 Manajemen Perusahaan, D3 Akutansi, dan D3 Administrasi Perpajakan"
+        ]
+      },
+      {
+        "tag": "jurusan_fakultas_pascasarjana",
+        "patterns": [
+          "di fakultas pascasarjana ada fakultas apa aja?"
+        ],
+        "responses": [
+          "Jurusan di fakultas pascasarjana ada 7 untuk jenjang magister dan 2 untuk jenjang dokter lho!. di jenjang magister yaitu : Pendidikan Agama Islam, Manajemen Pendidikan Islam, Pendidika Bahasa Arab, Pendidikan Bahasa Inggris, Hukum Islam, Tafsir Hadits, dan Ekonomi Islam. sedangkan di jenjang dokter, yaitu : Pendidikan Agama Islam dan Hukum Islam"
+        ]
+      },
+      {
+        "tag": "jurusan_fakultas_Syariah_dan_Ilmu_Hukum",
+        "patterns": [
+          "di fakultas Syariah dan Ilmu Hukum ada Jurusan Apa aja?"
+        ],
+        "responses": [
+          "Jurusan di fakultas Syariah dan Ilmu Hukum ada 7, lho!. yaitu : Ahwal Al-Syakhshiyyah, Jinayah Siyasah, Perbandingan Mazhab dan Hukum, Muammalah, Ekonomi Islam, Ilmu hukum, dan D3 Perbankan Syariah"
+        ]
+      },
+      {
+        "tag": "jurusan_fakultas_Dakwah_dan_Komunikasi",
+        "patterns": [
+          "di fakultas Dakwah dan Komunikasi ada jurusan apa aja?"
+        ],
+        "responses": [
+          "Jurusan di fakultas Dakwah dan Komunikasi ada 4, lho! yaitu : Ilmu Komunikasi, Pengembangan Masyarakat Islam, Manajemen Dakwah, dan BImbingan Konseling Islam"
+        ]
+      },
+      {
+        "tag": "jurusan_fakultas_Sains_dan_Teknologi",
+        "patterns": [
+          "di fakultas Sains dan Teknologi ada jurusan apa aja?"
+        ],
+        "responses": [
+          "Jurusan di fakultas Sains dan Teknologi ada 5, lho! yaitu : Teknik Informatika, Sistem Informasi, Teknik Idustri, Teknik Elektro dan Matematika Terapan"
+        ]
+      },
+      {
+        "tag": "jurusan_fakultas_Pertanian_dan_Pertenakan",
+        "patterns": [
+          "di fakultas pertanian dan pertenakan ada jurusan apa aja?"
+        ],
+        "responses": [
+          "Jurusan di fakultas pertanian dan pertenakan ada 3, lho! yaitu : Peternakan, Agroteknologi dan Gizi"
+        ]
+      }
+    ]
+  }
