@@ -86,9 +86,40 @@
         ]
       },
       {
+        "tag": "Alamat_UIN_Suska_Riau",
+        "patterns": [
+          "Alamat UIN Suska Riau?",
+          "dimana alamat UIN Suska Riau?"
+        ],
+        "responses": [
+          "Alamat UIN Suska Riau ada di Panam, Jalan. HR. Soebrantas No.Km. 15, RW.15, Simpang Baru, Kota Pekanbaru, Riau"
+        ]
+      },
+      {
+        "tag": "Sejarah_UIN_Suska_Riau",
+        "patterns": [
+          "Kapan UIN Suska Riau Didirikan?",
+          "Sejarah UIN Suska Riau"
+        ],
+        "responses": [
+          "UIN Suska Riau didirikan pertama kali pada tanggal 19 September 1970 sebagai IAIN Sulthan Syarif Qasim dan pada tanggal 4 januari 2005 ditetapkan sebagai Universitas Islam Negeri Sultan Syarif Kasim Riau"
+        ]
+      },
+      {
+        "tag": "Rektor_UIN_Suska_Riau",
+        "patterns": [
+          "Siapa Rektor di UIN Suska Riau?",
+          "Rektor UIN Suska Riau?"
+        ],
+        "responses": [
+          "Rektor yang sedang menjabat di UIN Suska Riau saat ini adalah bapak Prof. Dr. Khairunnas Rajab, M.Ag"
+        ]
+      },
+      {
         "tag": "penjelasan_UIN_Suska_Riau",
         "patterns": [
-          "Apa itu UIN Suska Riau?"
+          "Apa itu UIN Suska Riau?",
+          "UIN Suska Riau?"
         ],
         "responses": [
           "UIN Suska Riau atau disebut juga Universitas Islam Negeri Sultan Syarif Kasim Riau merupakan satu-satunya kampus islam negeri yang meraih akreditas B di Riau, dengan jumlah peminatnya setiap tahun mencapai lebih dari seribu orang, lho!"
@@ -97,7 +128,8 @@
         {
         "tag": "UKM_UIN_Suska_Riau",
         "patterns": [
-          "UKM di UIN Suska Riau?"
+          "UKM di UIN Suska Riau?",
+          "Estrakulikuler di UIN Suska Riau?"
         ],
         "responses": [
           "UKM yang ada di UIN Suska Riau ada banyak loh, seperti : Sanggar latah Tuah, Lembaga Pers Mahasiswa (LPM) Gagasan, Pramuka, Sanggar Kasimiah, Korps Sukarela Palang Merah Indonesia, Mahasiswa Pencinta Alam, Lembaga Dakwah Kampus (LDK) Al-Karamah, Forum Kajian Islam Intensif Asy-Syams, Himpunan Seni Silat, Koperasi Mahasiswa, Resimen Mahasiswa, IN Suska Menagajar dan Marcing Band. Nah, ada banyak kan. jadi Mana Yang Paling Kalian Minati nihh! "
@@ -106,7 +138,9 @@
       {
         "tag": "Akreditas_UIN_Suska_Riau",
         "patterns": [
-          "Akreditas UIN Suska Riau Apa Sih sekarang?"
+          "Akreditas UIN Suska Riau Apa Sih sekarang?",
+          "Akreditas UIN Suska Riau?"
+    
         ],
         "responses": [
           "UIN Suska Riau merupakan Satu-satunya Kampus Islam Negeri dengan Akreditas B di Riau, Lho!."
@@ -115,7 +149,8 @@
       {
         "tag": "persyaratan_daftar_UIN_Suska_Riau",
         "patterns": [
-          "Apa persyaratan daftar ke UIN Suska Riau?"
+          "Apa persyaratan daftar ke UIN Suska Riau?",
+          "Syarat Mendaftar di UIN Suska Riau"
         ],
         "responses": [
           "salah satu syarat mendaftar di UIN Suska Riau adalah, harus Warga Negara Indonesia yang memiliki Nomor Induk Kependudukan."
@@ -124,7 +159,9 @@
       {
         "tag": "Jalur_Pendaftaran",
         "patterns": [
-          "Apa saja jalur pendaftaran yang ada di UIN Suska Riau?"
+          "Apa saja jalur pendaftaran yang ada di UIN Suska Riau?",
+          "Jalur pendaftaran di UIN Suska Riau?"
+        
         ],
         "responses": [
           "Terdapat beberapa jalur pendaftaran, seperti jalur SNBP, SNBT, SPAN-PTKIN, UM-PTKIN, SMM-PTN barat, Undangan Mandiri, Ujian Tulis Mandiri, dan lain-lain"
@@ -151,7 +188,9 @@
       {
         "tag": "jurusan_fakultas_Tarbiyah_dan_Keguruan",
         "patterns": [
-          "di fakultas Tarbiyah dan Keguruan ada jurusan apa aja?"
+          "di fakultas Tarbiyah dan Keguruan ada jurusan apa aja?",
+          "Jurusan di fakultas Tarbiyah dan Keguruan?",
+          "Jurusan di Tarbiyah?"
         ],
         "responses": [
           "Jurusan di fakultas Taribiyah dan Keguruan ada 11, lho! yaitu : Pendidikan Agama Islam, Pendidikan Bahasa Arab, Pendidikan Islam, Pendidikan Bahasa Inggris, Pendidikan Matematika, Pendidikan Madrasah Ibtidaiyah, Pendidikan Kimia, Pendidikan Bahasa Indonesia, Tadris IPA, Pendidikan Geografi, dan Pendidikan IPS Ekonomi."
@@ -160,7 +199,9 @@
       {
         "tag": "jurusan_fakultas_Ushuludin",
         "patterns": [
-          "di fakultas Ushuludin ada jurusan apa aja?"
+          "di fakultas Ushuludin ada jurusan apa aja?",
+          "Jurusan di fakultas Ushuludin?",
+          "Jurusan di Ushuludin?"
         ],
         "responses": [
           "Jurusan di fakultas Ushuludin ada 4, lho! yaitu : Aqidah dan Filsafat, Tafsir Hadits, Ilmu Hadis, dan Perbandingan Agama"
@@ -169,7 +210,9 @@
       {
         "tag": "jurusan_fakultas_psikologi",
         "patterns": [
-          "di fakultas Psikologi ada jurusan apa aja?"
+          "di fakultas Psikologi ada jurusan apa aja?",
+          "Jurusan di fakultas psikologi}?",
+          "Jurusan di psikologi?"
         ],
         "responses": [
           "Jurusan di fakultas Psikologi ada 2, lho! yaitu : S1 Psikologi dan S2 psikologi"
@@ -178,7 +221,9 @@
       {
         "tag": "jurusan_fakultas_Ekonomi_dan_Ilmu_Sosial",
         "patterns": [
-          "di fakultas Ekonomi dan Ilmu Sosial ada jurusan apa aja?"
+          "di fakultas Ekonomi dan Ilmu Sosial ada jurusan apa aja?",
+          "Jurusan di fakultas Ekonomi dan ilmu Sosial?",
+          "Jurusan di fekonsos?"
         ],
         "responses": [
           "Jurusan di fakultas Ekonomi dan Ilmu Sosial ada 6, lho! yaitu : Manajemen, Administrasi Negara, Akutansi, D3 Manajemen Perusahaan, D3 Akutansi, dan D3 Administrasi Perpajakan"
@@ -187,7 +232,8 @@
       {
         "tag": "jurusan_fakultas_pascasarjana",
         "patterns": [
-          "di fakultas pascasarjana ada fakultas apa aja?"
+          "di fakultas pascasarjana ada fakultas apa aja?",
+          "Jurusan pascasarjana?"
         ],
         "responses": [
           "Jurusan di fakultas pascasarjana ada 7 untuk jenjang magister dan 2 untuk jenjang dokter lho!. di jenjang magister yaitu : Pendidikan Agama Islam, Manajemen Pendidikan Islam, Pendidika Bahasa Arab, Pendidikan Bahasa Inggris, Hukum Islam, Tafsir Hadits, dan Ekonomi Islam. sedangkan di jenjang dokter, yaitu : Pendidikan Agama Islam dan Hukum Islam"
@@ -196,7 +242,8 @@
       {
         "tag": "jurusan_fakultas_Syariah_dan_Ilmu_Hukum",
         "patterns": [
-          "di fakultas Syariah dan Ilmu Hukum ada Jurusan Apa aja?"
+          "di fakultas Syariah dan Ilmu Hukum ada Jurusan Apa aja?",
+          "Jurusan di fakultas Tarbiyah dan Keguruan?"
         ],
         "responses": [
           "Jurusan di fakultas Syariah dan Ilmu Hukum ada 7, lho!. yaitu : Ahwal Al-Syakhshiyyah, Jinayah Siyasah, Perbandingan Mazhab dan Hukum, Muammalah, Ekonomi Islam, Ilmu hukum, dan D3 Perbankan Syariah"
@@ -205,7 +252,9 @@
       {
         "tag": "jurusan_fakultas_Dakwah_dan_Komunikasi",
         "patterns": [
-          "di fakultas Dakwah dan Komunikasi ada jurusan apa aja?"
+          "di fakultas Dakwah dan Komunikasi ada jurusan apa aja?",
+          "Jurusan di fakultas Dakwah dan Komunikasi?",
+          "Jurusan di FDK?"
         ],
         "responses": [
           "Jurusan di fakultas Dakwah dan Komunikasi ada 4, lho! yaitu : Ilmu Komunikasi, Pengembangan Masyarakat Islam, Manajemen Dakwah, dan BImbingan Konseling Islam"
@@ -214,7 +263,9 @@
       {
         "tag": "jurusan_fakultas_Sains_dan_Teknologi",
         "patterns": [
-          "di fakultas Sains dan Teknologi ada jurusan apa aja?"
+          "di fakultas Sains dan Teknologi ada jurusan apa aja?",
+          "Jurusan di fakultas Sains dan Teknologi?",
+          "Jurusan di Saintek?"
         ],
         "responses": [
           "Jurusan di fakultas Sains dan Teknologi ada 5, lho! yaitu : Teknik Informatika, Sistem Informasi, Teknik Idustri, Teknik Elektro dan Matematika Terapan"
@@ -223,7 +274,9 @@
       {
         "tag": "jurusan_fakultas_Pertanian_dan_Pertenakan",
         "patterns": [
-          "di fakultas pertanian dan pertenakan ada jurusan apa aja?"
+          "di fakultas pertanian dan pertenakan ada jurusan apa aja?",
+          "Jurusan di fakultas pertanian dan peternakan?",
+          "Jurusan di Fapertapet?"
         ],
         "responses": [
           "Jurusan di fakultas pertanian dan pertenakan ada 3, lho! yaitu : Peternakan, Agroteknologi dan Gizi"
