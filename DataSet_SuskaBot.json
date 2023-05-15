@@ -4,6 +4,7 @@
         "tag": "greeting",
         "patterns": [
           "hallo",
+          "woi" ,
           "hai",
           "halo",
           "hei",
